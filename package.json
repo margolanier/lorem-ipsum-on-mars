@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/margolanier/lorem-ipsum-on-mars#readme",
   "dependencies": {
-    "express": "^4.13.4"
+    "express": "^4.13.4",
+    "express-handlebars": "^3.0.0"
   }
 }
