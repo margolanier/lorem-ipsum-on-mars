@@ -1,7 +1,7 @@
 # Lorem Ipsum on Mars?
 
 ### Synopsis
-The single greatest lorem ipsum generater known to the universe.  Generates David Bowie lyrics.
+The single greatest Lorem Ipsum generator known to man.  Generates David Bowie lyrics.
 
 ### Co-authors
 Margo Lanier & [Caitlin Daitch](https://github.com/caitlindaitch)
