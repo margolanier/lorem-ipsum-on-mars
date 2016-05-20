@@ -58,7 +58,16 @@
     var vm = this;
     vm.lyrics = lyrics.all;
 
-    vm.num = randomNumber();
+    vm.num1 = randomNumber();
+    vm.num2 = randomNumber();
+    vm.num3 = randomNumber();
+    vm.num4 = randomNumber();
+    vm.num5 = randomNumber();
+    vm.num6 = randomNumber();
+    vm.num7 = randomNumber();
+    vm.num8 = randomNumber();
+    vm.num9 = randomNumber();
+    vm.num10 = randomNumber();
   };
 
   function randomNumber(){
