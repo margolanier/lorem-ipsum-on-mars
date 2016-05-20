@@ -50,13 +50,22 @@
     };
 
     Lyrics.all = Lyrics.query();
-    return Lyrics;
 
+    return Lyrics;
   };
 
   function LyricsController(lyrics){
     var vm = this;
     vm.lyrics = lyrics.all;
+
+    vm.num = randomNumber();
+  };
+
+  function randomNumber(){
+    var randomDecimal = Math.random() * 32;
+    var num = Math.round(randomDecimal);
+
+    return num
   };
 
 })();
