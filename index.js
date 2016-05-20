@@ -22,10 +22,8 @@ app.get("/api/lyrics", function(req, res){
   });
 });
 
-app.get("/", function(req, res){
-  res.render("app-welcome", {
-    lyrics: db.lyrics
-  });
+app.get("/*", function(req, res){
+  res.render("app-welcome");
 });
 
 app.set("port", process.env.PORT || 3001);
