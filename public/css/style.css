@@ -1,4 +1,22 @@
 body {
   text-align: center; }
 
+.button {
+  font-family: arial;
+  display: inline-block; }
+  .button a {
+    color: #999;
+    text-decoration: none;
+    text-transform: uppercase; }
+  .button a:link, .button a:active, .button a:visited {
+    border: 2px solid #999;
+    padding: 5px; }
+  .button a:hover {
+    background-color: #999;
+    color: white;
+    transition: 1s; }
+
+.lyrics {
+  padding: 20px; }
+
 /*# sourceMappingURL=style.css.map */

@@ -1,3 +1,32 @@
+$lightest-color: white;
+$button-color: #999;
+
 body {
   text-align: center;
+}
+
+.button {
+  font-family: arial;
+  display: inline-block;
+
+  a {
+    color: $button-color;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+
+  a:link, a:active, a:visited {
+    border: 2px solid $button-color;
+    padding: 5px;
+  }
+
+  a:hover {
+    background-color: $button-color;
+    color: $lightest-color;
+    transition: 1s;
+  }
+}
+
+.lyrics {
+  padding: 20px;
 }
