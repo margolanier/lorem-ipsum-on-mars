@@ -1,0 +1,22 @@
+{
+  "name": "lorem-ipsum-on-mars",
+  "version": "1.0.0",
+  "description": "### Synopsis The single greatest lorem ipsum generater known to the universe.  Generates David Bowie lyrics.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/margolanier/lorem-ipsum-on-mars.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/margolanier/lorem-ipsum-on-mars/issues"
+  },
+  "homepage": "https://github.com/margolanier/lorem-ipsum-on-mars#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
