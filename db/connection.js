@@ -1,5 +1,17 @@
-var seedData = require("./seeds.json");
+var mongoose = require("mongoose");
 
-module.exports = {
-  candidates: seedData
+if (process.env.NODE_ENV == "production"){
+  mongoose.connect(process.env.MONGOLAB_URL);
+} else {
+  mongoose.connect("mongodb://localhost/lyrics");
 }
+
+var LyricSchema = new mongoose.Schema(
+  {
+    lyric: String
+  }
+);
+
+mongoose.model("Lyrics", LyricSchema);
+
+module.exports = mongoose;
