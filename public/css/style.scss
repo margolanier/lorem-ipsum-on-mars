@@ -47,11 +47,19 @@ h1 {
   color: $bowie-red;
 }
 
+@keyframes color_change {
+	from { border: 4px solid $bowie-blue; }
+	to { border: 4px solid $bowie-red; }
+}
+
 .lyrics {
   margin: 0 auto;
   font-family: 'Lora', serif;
   margin-top: 25px;
   padding: 20px;
   max-width: 500px;
-  border: 3px solid black;
+  animation-name: color_change;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
 }
