@@ -1,22 +1,39 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:400,500);
+@import url(https://fonts.googleapis.com/css?family=Lora);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
 body {
   text-align: center; }
 
+.logo {
+  width: 300px; }
+
 .button {
-  font-family: arial;
+  font-family: 'Open Sans', sans-serif;
   display: inline-block; }
   .button a {
-    color: #999;
+    color: #00b8ff;
     text-decoration: none;
     text-transform: uppercase; }
   .button a:link, .button a:active, .button a:visited {
-    border: 2px solid #999;
+    border: 2px solid #00b8ff;
     padding: 5px; }
   .button a:hover {
-    background-color: #999;
+    background-color: #ff3829;
+    border: 2px solid #ff3829;
     color: white;
     transition: 1s; }
 
+h1 {
+  font-family: 'Ubuntu', sans-serif;
+  text-transform: uppercase; }
+
+.accent-word {
+  color: #ff3829; }
+
 .lyrics {
-  padding: 20px; }
+  margin: 0 auto;
+  font-family: 'Lora', serif;
+  padding: 20px;
+  max-width: 500px; }
 
 /*# sourceMappingURL=style.css.map */
