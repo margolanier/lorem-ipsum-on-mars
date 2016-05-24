@@ -71,7 +71,7 @@
   };
 
   function randomNumber(){
-    var randomDecimal = Math.random() * 42;
+    var randomDecimal = Math.random() * 55;
     var num = Math.round(randomDecimal);
 
     return num
