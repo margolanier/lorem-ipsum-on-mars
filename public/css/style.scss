@@ -8,43 +8,43 @@ $bowie-blue: #00b8ff;
 $bowie-red: #ff3829;
 
 body {
-  text-align: center;
+	text-align: center;
 }
 
 .logo {
-  width: 300px;
+	width: 300px;
 }
 
 .button {
-  font-family: 'Open Sans', sans-serif;
-  display: inline-block;
+	font-family: 'Open Sans', sans-serif;
+	display: inline-block;
 
-  a {
-    color: $bowie-blue;
-    text-decoration: none;
-    text-transform: uppercase;
-  }
+	a {
+		color: $bowie-blue;
+		text-decoration: none;
+		text-transform: uppercase;
+	}
 
-  a:link, a:active, a:visited {
-    border: 2px solid $bowie-blue;
-    padding: 5px;
-  }
+	a:link, a:active, a:visited {
+		border: 2px solid $bowie-blue;
+		padding: 5px;
+	}
 
-  a:hover {
-    background-color: $bowie-red;
-    border: 2px solid $bowie-red;
-    color: $lightest-color;
-    transition: 1s;
-  }
+	a:hover {
+		background-color: $bowie-red;
+		border: 2px solid $bowie-red;
+		color: $lightest-color;
+		transition: 1s;
+	}
 }
 
 h1 {
-  font-family: 'Ubuntu', sans-serif;
-  text-transform: uppercase;
+	font-family: 'Ubuntu', sans-serif;
+	text-transform: uppercase;
 }
 
 .accent-word {
-  color: $bowie-red;
+	color: $bowie-red;
 }
 
 @keyframes color_change {
@@ -53,12 +53,12 @@ h1 {
 }
 
 .lyrics {
-  margin: 0 auto;
-  font-family: 'Lora', serif;
-  margin-top: 25px;
-  padding: 20px;
-  max-width: 500px;
-  animation-name: color_change;
+	margin: 0 auto;
+	font-family: 'Lora', serif;
+	margin-top: 25px;
+	padding: 20px;
+	max-width: 500px;
+	animation-name: color_change;
 	animation-duration: 5s;
 	animation-iteration-count: infinite;
 	animation-direction: alternate;
